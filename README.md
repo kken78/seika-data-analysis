@@ -13,7 +13,7 @@
 import pandas as pd
 
 # データの置き場所（このリポジトリ）
-BASE_URL = 'https://raw.githubusercontent.com/ユーザー名/リポジトリ名/main/'
+BASE_URL = 'https://raw.githubusercontent.com/kken78/seika-data-analysis/main/'
 
 business = pd.read_csv(BASE_URL + 'business_cafe_sales_clean.csv')
 policy   = pd.read_csv(BASE_URL + 'policy_bus_demand_clean.csv')
